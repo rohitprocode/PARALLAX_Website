@@ -8,7 +8,8 @@
 .container {
   max-width: 100wh;
   height: 100%;
-
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .img1 {
@@ -31,19 +32,39 @@
 }
 
 .text h1 {
-  font-family: 'PT Serif', serif;
-  font-family: 'Roboto', sans-serif;
   color: white;
   letter-spacing: 5px;
   font-weight:lighter;
   font-size: 27px;
 }
 .section_one{
-  background-color: white;
+  /* background-color: darkorange; */
   width: 100%;
   height: 320px;
-  color:gray;
+  color:black;
   display: flex;
   justify-content: center;
   font-weight: 900;
+}
+.text_area{
+  /* background-color: darkred; */
+  width: 90%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 20px;
+}
+.text_area h2{
+  /* background-color: aqua; */
+  color: gray;
+  font-weight: 700;
+}
+.text_area p{
+  text-align:center;
+  width: 1390px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
 }
