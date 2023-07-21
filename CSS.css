@@ -53,7 +53,7 @@
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 45px;
   padding: 20px;
 }
 .text_area h2{
@@ -62,9 +62,13 @@
   font-weight: 700;
 }
 .text_area p{
+  /* background-color: greenyellow; */
+  margin-top: 20px;
+  max-height: 130px;
   text-align:center;
-  width: 1390px;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 25px;
+  width: 1350px;
+  font-size: 16px;
+  font-weight:300;
+  line-height: 29px;
+  color: gray;
 }
