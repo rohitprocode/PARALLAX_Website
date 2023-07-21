@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100wh;
+  /* background: black; */
+  min-height: fit-content;
+}
+
+.img1 {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: rebeccapurple;
+  background-image: url(images/image1.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background-color: gray;
+  height: 60px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1 {
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
