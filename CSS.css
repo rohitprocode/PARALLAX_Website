@@ -15,14 +15,10 @@
 .img1 {
   min-height: 90vh;
   min-width: 100%;
-  background-color: rebeccapurple;
   background-image: url(images/image1.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .text {
@@ -76,4 +72,12 @@
   font-weight:300;
   line-height: 29px;
   color: gray;
+}
+.img2{
+  min-height: 50vh;
+  min-width: 100%;
+  background-image: url(images/image2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
